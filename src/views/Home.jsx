@@ -9,7 +9,7 @@ import cloud from "../assets/cloudBg.png";
 import cloudDark from "../assets/cloudDark.png";
 import download from "../assets/download.png"
 import sadra2 from "../assets/sadra2.jpg"
-import download2 from "../assets/download2.png"
+import saddd from "../assets/saddd.pdf"
 
 const Home = () => {
   const theme = useContext(ThemeContext);
@@ -69,7 +69,7 @@ const Home = () => {
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
                 {/* <Link> */}
                  
-                  <a href="https://mihanblockchain.com" target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
+                  <a href={saddd} target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
                     Resume
 
                   </a>

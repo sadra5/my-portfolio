@@ -22,8 +22,8 @@ const Projects = () => {
         </h4>
         <div className="mt-8 flex justify-between items-stretch flex-wrap">
           <Card3 />
-          <Card />
           <Card2 />
+          <Card />
         </div>
         <a
           href="hello"

@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import auction from "../assets/auction.png"
+import images from "../assets/images.jpg"
 const Card = () => {
   return (
     <motion.div
@@ -12,15 +13,15 @@ const Card = () => {
       }}
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <a href="https://github.com/sadra5/Auction">
+      <a href="https://github.com/sadra5/Auction" target="_blank">
         <img
           class="rounded-t-lg w-full"
-          src={auction}
+          src={images}
           alt=""
         />
       </a>
       <div class="p-5">
-        <a href="https://github.com/sadra5/Auction">
+        <a href="https://github.com/sadra5/Auction" target="_blank">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           NFT Auction Smart Contract
 
@@ -32,6 +33,7 @@ const Card = () => {
         </p>
         <a
           href="https://github.com/sadra5/Auction"
+          target="_blank"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
           Read more
